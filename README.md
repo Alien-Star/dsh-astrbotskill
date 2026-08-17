@@ -1,6 +1,6 @@
 # dsh-astrbotskill
 
-AstrBot 插件开发教程（<https://docs.astrbot.app/dev/star/>）的**全量总结**，以 DSH 技能包形式提供。
+AstrBot 插件开发教程（<https://docs.astrbot.app/dev/star/plugin-new.html>）的**总结**，以 DSH 技能包形式提供。
 
 安装后，插件会把技能 **`astrbot-plugin-dev`** 注册到 DeepSeek Harness，agent 编写/移植 AstrBot 插件时可直接加载该技能。
 
