@@ -1,0 +1,8 @@
+# dsh-astrbotskill bundle patch: inserts the plugin entry into the web profile
+# plugin roster. Install with:
+#   dsh plugin --profile <name> add <path-to-this-repo>
+# `id`   = the Cordis plugin id (see `export const name` in index.js)
+# `name` = the npm package name (resolved from node_modules after install)
+- insert:
+    - id: astrbotskill
+      name: dsh-astrbotskill

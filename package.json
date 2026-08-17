@@ -1,0 +1,32 @@
+{
+  "name": "dsh-astrbotskill",
+  "version": "1.0.0",
+  "description": "AstrBot 插件开发教程（docs.astrbot.app/dev/star）全量总结，作为 DSH 技能包（astrbot-plugin-dev）提供。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "skill",
+    "astrbot",
+    "tutorial"
+  ],
+  "license": "MIT"
+}
