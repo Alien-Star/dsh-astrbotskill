@@ -26,10 +26,7 @@ AstrBot 插件开发教程（<https://docs.astrbot.app/dev/star/plugin-new.html>
 ## 安装
 
 ```sh
-# 在本仓库父目录执行（相对路径以调用目录为锚点）：
-dsh plugin --profile desktop add ./dsh-astrbotskill
-# 或绝对路径：
-dsh plugin --profile desktop add D:\DeepseekHarness\Plugin\dsh-astrbotskill
+直接让DeepseekHarness自己装
 ```
 
 安装后重启 DeepSeek Harness Desktop 生效；技能出现在技能列表中，名称为 `astrbot-plugin-dev`。
